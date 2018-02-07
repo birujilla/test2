@@ -1,0 +1,8 @@
+h1 {color: purple;}
+/* para abrir la ventana de la consola (github) desde aqui utilizamos ver, 
+terminal integrado, el comando rápido es control + ñ. */
+/* para ver si está instalado el programa git, ponemos en el comando de la consola
+"git --version" y damos a intro, y nos aparece en las siguientes lineas la version
+que está instalada.
+para almacenar todos los cambios ponemos el siguiente comando "git init", y así se crea
+una nueva carpeta (invisible), en dentro de la carpeta "test2". */
