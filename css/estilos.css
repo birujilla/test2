@@ -1,8 +1,19 @@
-h1 {color: purple;}
+h2 {color: purple;}
 /* para abrir la ventana de la consola (github) desde aqui utilizamos ver, 
 terminal integrado, el comando rápido es control + ñ. */
 /* para ver si está instalado el programa git, ponemos en el comando de la consola
 "git --version" y damos a intro, y nos aparece en las siguientes lineas la version
 que está instalada.
 para almacenar todos los cambios ponemos el siguiente comando "git init", y así se crea
-una nueva carpeta (invisible), en dentro de la carpeta "test2". */
+una nueva carpeta (invisible), en dentro de la carpeta "test2".
+y poniendo seguidamente "git add .", hacemos que se vinculen los cambios.(añadir todos los
+cambios que sufre git).
+y para añadir un nombre a dicho archivo ponemos "git commit -m "primera version"".
+ahora nos vamos a la pagina github, para crearnos un repositorio. */
+/* para poner el enlace entre el repositorio que hemos hecho en github, y el archivo git,
+tenemos que utilizar un comando que nos porporciona la propia pagina github, al crear el 
+nuevo repositorio, git remote add origin https://github.com/birujilla/test2.git, es el enlace
+en este caso del archivo que hemos hecho, lo ponemos y damos intro.
+y ponemos debajo el siguiente comando que nos ha proporcionado github: git push -u origin master.
+y así tenemos vinculado el archivo con la nube. (esto se tiene que hacer siempre que empiece un´
+proyecto nuevo.)*/
